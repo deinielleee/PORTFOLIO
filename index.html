@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- nav -->
+<header>
+    <div class="logo">
+        <img src="images/logo.png" alt="logo">
+    </div>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#aboutme">About Me</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contactme">Contact Me</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div id="menu" class="fas fa-bars"></div>
+
+<!-- home -->
+<section class="home" id="home">
+        <h3>Hey,</h3>
+        <h1>I'm <span>Jan Deinielle Del Rosario</span>.</h1>
+        <p>An IT Student currently studying at the Polytechnic University of the Philippines Santa Maria.</p>
+</section>
+
+<!-- about me -->
+<section class="aboutme" id="aboutme">
+    <h1 class="heading"><span>About</span> Me </h1>
+    <div class="row">
+        <div class="profile">
+            <img src="images/profile.jpg" alt="profile">
+        </div>
+
+        <div class="info">
+            <h2>Hi there!</h2> <br> 
+            <h3>I am Jan Deinielle S. Del Rosario but you can call me Janel or Deinielle and I am aspiring to be an IT professional. <br><br>  
+                I am currently a 3rd year Bachelor of Science in Information Technology student at the Polytechnic University of the Philippines Santa Maria Bulacan Campus. <br><br>  
+                Hardworking and eager to learn new things, especially in the field of IT.
+            </h3>
+        </div>
+    </div>
+</section>
+
+<!-- resume -->
+<section class="resume" id="resume">
+    <h1 class="heading">My <span>Resume</span></h1>
+    <div class="row">
+        <img src="images/resume.png" alt="resume">
+    </div>
+
+    <a href="resume/Resume.pdf" target="_blank"><button class="btn">Download CV<i class="fas fa-download"></i></button></a>
+</section>
+
+<!-- skills -->
+<section class="skills" id="skills">
+    <h1 class="heading">My <span>Skills</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-desktop"></i>
+            <span>Computer Literacy Skills</span>
+            <p>Computer literacy is defined as the knowledge and ability to use computers and related technology efficiently, 
+                with skill levels ranging from elementary use to computer programming and advanced problem solving.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-user"></i>
+            <span>Communication Skills</span>
+            <p>Communication skills are needed to speak appropriately with a wide variety of people whilst maintaining good eye contact, 
+                demonstrate a varied vocabulary and tailor your language to your audience, listen effectively, present your ideas appropriately, 
+                write clearly and concisely, and work well in a group.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-keyboard"></i>
+            <span>Web Development</span>
+            <p>Web development refers to the tasks associated with creating, building, and maintaining websites and web applications that run online on a browser. 
+                I have basic knowledge with the following: HTML, CSS, JavaScript, and PHP.</p>
+        </div>
+    </div>
+</section>
+
+<!-- contact me -->
+<section class="contactme" id="contactme">
+    <h1 class="heading"><span>Contact</span> Me</h1>
+    <div class="row">
+        <div class="content">
+            <h3 class="title">Contact Info</h3>
+            <div class="info">
+                <h3><i class="fas fa-envelope"></i> janeldr1112@gmail.com </h3>
+                <h3><i class="fas fa-phone"></i> +639773502044</h3>
+                <h3><i class="fas fa-map-marker-alt"></i> Santa Maria, Bulacan </h3>
+                
+                <div class="link">
+                    <a href="https://www.linkedin.com/in/jan-deinielle-del-rosario-40b55b272/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/deinielleee" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <form action="">
+            <input type="text" placeholder="Name" class="box">
+            <input type="email" placeholder="Email" class="box">
+            <input type="text" placeholder="Subject" class="box">
+            <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="Message"></textarea>
+            <button type="submit" class="btn">Send <i class="fas fa-paper-plane"></i></button>
+        </form>
+    </div>
+</section>
+
+<!-- scroll top -->
+<a href="#home" class="top">
+    <img src="images/scroll-top-img.svg" alt="">
+</a>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
